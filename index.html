@@ -7,93 +7,106 @@
     <title>Alertt Site</title>
     <link rel="stylesheet" href="css/vendors/foundation-flex.css" />
     <link href="http://vjs.zencdn.net/5.6.0/video-js.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/vendors/jquery.fullPage.css" />
     <link rel="stylesheet" href="css/vendors/animate.css">
     <link rel="stylesheet" href="css/main.css" />
   </head>
   <body>
-  <div id="body">
-    <div class="row">
-      <div class="small-3 medium-3 columns">
-          <img class="logo-sml" src="img/alertt_logo-sml.png" alt="Alertt Logo">
-      </div>
-    </div>
-    <div class="row">
-      <div class="large-12 columns">
-        <div class="callout large">
-          <h3>Nothing can beat real people working together </h3>
-          <p>Imagine thousands of drivers out on the roads, working together towards a common goal: to outsmart traffic and get everyone the best route to work and back, every day.</p>
+
+  <div id="fullpage">
+        <div class="section">
+
+          <div id="page">
             <div class="row">
-              <div class="large-12 columns">
-              <form action="index.html" method="POST">
+              <div class="main-page-container large-12 columns">
                 <div class="row">
-                  <div class="large-8 columns">
-                    <input type="email" name="email" id="email" placeholder="Email me when available">
-                  </div>
-                  <div class="large-4 columns">
-                    <input type="submit" id="submit-button" class="button">
-                  </div>
-                </div>
-              </form>
-              </div>
-            </div>
-        </div>
-      </div>
-    </div>
-  </div>
-<!--------------->
-      <div id="page">
-        <div class="row">
-            <div class="main-page-container large-12 columns">
-              <div class="row">
-                <div class="large-12 columns">
-                  <div class="row">
-                    <div class="small-12 medium-12 large-12 columns">
-                      <div class="row">
-                        <div class="small-1 medium-2 large-2 columns"></div>
-                        <div class="small-10 medium-8 large-8 columns"> <img id="logo" src="img/alertt_logo.png" alt=""></div>
-                        <div class="small-1 medium-2 large-2 columns"></div>
+                  <div class="large-12 columns">
+                    <div class="row">
+                      <div class="small-12 medium-12 large-12 columns">
+                        <div class="row">
+                          <div class="small-1 medium-2 large-2 columns"></div>
+                          <div class="small-10 medium-8 large-8 columns"> <img id="logo" src="img/alertt_logo.png" alt=""></div>
+                          <div class="small-1 medium-2 large-2 columns"></div>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                  <div class="large-expand">
-                    <h1>Get the best route, every day,
-                      with real-time help from other drivers.</h1>
-                    <h4>Alertt is the New Zealand community-based
-                      traffic and navigation app. Join other drivers in
-                      your area who share real time traffic and road info,
-                      saving everyone time and gas money on their daily commute.</h4>
-              <form>
-                <div class="row">
-                  <div class="large-2 columns"></div>
-                  <div class="large-8 columns">
-                      <h3><strong>ALERT</strong> OUTSMARTING TRAFFIC, TOGETHER.</h3>
-                      <div class="row">
-                        <div class="small-6 medium-6 columns">
-                          <div class="row">
-                            <div class="small-5 columns"></div>
-                            <div class="small-6 columns"><img class="app-store-icons" src="img/apple-store-icon.png" alt="Apple Store Icon"></div>
-                            <div class="small-1 columns"></div>
+                    <div class="large-expand">
+                      <h1>Get the best route, every day,
+                        with real-time help from other drivers.</h1>
+                      <h4>Alertt is the New Zealand community-based
+                        traffic and navigation app. Join other drivers in
+                        your area who share real time traffic and road info,
+                        saving everyone time and gas money on their daily commute.</h4>
+                        <div class="row">
+                          <div class="large-2 columns"></div>
+                          <div class="large-8 columns">
+                            <h3><strong>ALERT</strong> OUTSMARTING TRAFFIC, TOGETHER.</h3>
+                            <div class="row">
+                              <div class="small-6 medium-6 columns">
+                                <div class="row">
+                                  <div class="small-5 columns"></div>
+                                  <div class="small-6 columns"><img class="app-store-icons" src="img/apple-store-icon.png" alt="Apple Store Icon"></div>
+                                  <div class="small-1 columns"></div>
+                                </div>
+                              </div>
+                              <div class="large-6 medium-6 columns">
+                                <div class="row">
+                                  <div class="small-1 columns"></div>
+                                  <div class="small-6 columns"><img class="app-store-icons" src="img/google-play-icon.png" alt="Goole Play Icon"></div>
+                                  <div class="small-5 columns"></div>
+                                </div>
+                              </div>
+                            </div>
                           </div>
                         </div>
-                        <div class="large-6 medium-6 columns">
-                          <div class="row">
-                            <div class="small-1 columns"></div>
-                            <div class="small-6 columns"><img class="app-store-icons" src="img/google-play-icon.png" alt="Goole Play Icon"></div>
-                            <div class="small-5 columns"></div>
-                          </div>
-                        </div>
-                      </div>
+                    </div>
                   </div>
                 </div>
-              </form>
+                <nav id="next-btn"> Find out more <a href="#" class="next-icon"></a></nav>
+              </div>
               </div>
             </div>
-        </div>
-        <nav id="next-btn"> Find out more
-          <a href="#" class="next-icon"></a>
-        </nav>
-      </div>
+        </div>  <!--first page for fullpage.js-->
+        <div class="section">
+
+
+          <div id="body">
+            <div class="row">
+              <div class="small-3 medium-3 columns">
+                <img class="logo-sml" src="img/alertt_logo-sml.png" alt="Alertt Logo">
+              </div>
+            </div>
+            <div class="row">
+              <div class="large-12 columns">
+                <div class="callout large">
+                  <h3>Nothing can beat real people working together </h3>
+                  <p>Imagine thousands of drivers out on the roads, working together towards a common goal: to outsmart traffic and get everyone the best route to work and back, every day.</p>
+                  <div class="row">
+                    <div class="large-12 columns">
+                      <form action="index.html" method="POST">
+                        <div class="row">
+                          <div class="large-8 columns">
+                            <input type="email" name="email" id="email" placeholder="Email me when available">
+                          </div>
+                          <div class="large-4 columns">
+                            <input type="submit" id="submit-button" class="button">
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div><!--second page for fullpage.js-->
+  </div>
+
     <script src="js/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="js/jquery.fullPage.js"></script>
     <script src="http://vjs.zencdn.net/5.6.0/video.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/i18n/jquery-ui-i18n.js"></script>
     <script src="https://npmcdn.com/imagesloaded@4.1/imagesloaded.pkgd.min.js"></script>
